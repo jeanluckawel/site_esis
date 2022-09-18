@@ -1,0 +1,32 @@
+img{
+	width: 150px;
+	height: auto;
+
+}
+body{
+	font-family: open sans;
+}
+input{
+	width: 	300Px;
+}
+#promotion{
+	width: 500Px;
+	padding: 10px;
+}
+#name{
+	width: 500Px;
+}
+#mdp{
+	width: 500Px;
+}
+#save{
+	margin-top: 10Px;
+}
+#taillebtn{
+	max-width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main{
+	margin-top: 30px;
+}

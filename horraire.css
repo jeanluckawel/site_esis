@@ -1,0 +1,287 @@
+
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+img{
+    width: 150px;
+    height: auto;
+
+}
+#jr{
+    padding:20px;
+    font-size: 20px;
+    font-family: open sans;
+}
+
+#sr{
+    padding:20px;
+    font-size: 20px;
+    font-family: open sans;
+}
+#mtr{
+    padding:20px;
+    font-size: 20px;
+    font-family: open sans;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Les styles de la barre de navigation */
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    background-color: skyblue;
+}
+
+
+.logo
+{
+    margin-left: 50px;
+    width: 50px;
+    height: 75px;
+    float: left;
+}
+.logo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+nav h1
+{
+    padding: 25px 120px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.parent
+{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 500px;
+}
+
+.boutons
+{
+    text-align: center;
+}
+.boutons span
+{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.boutons a
+{
+    color: white;
+}
+.boutons :hover
+{
+    background-color: royalblue;
+}
+
+
+.listes
+{
+    margin-top: 4px;
+    font-size: 17px;
+}
+section
+{
+    float: left;
+    background-color: white;
+    opacity: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.l2
+{
+    margin-left: 115px;
+    width: 185px;
+}
+.l4
+{
+    margin-left: 20px;
+    width: 165px;
+}
+
+
+.listes div:hover
+{
+    background-color: skyblue;
+}
+
+/* Les styles de la barre de l'entete */
+
+header
+{
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+/* Les styles de la barre du main */
+
+main
+{
+    width: 85%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: white;
+    border: 1px gainsboro solid;
+}
+
+
+main h1
+{
+    color: red;
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: powderblue;
+    padding: 10px;
+    margin: 5px;
+    border: 1px gainsboro solid;
+}
+
+
+.horaire
+{
+    border: 1px gainsboro solid;
+    margin: 0px 5px;
+}
+
+h2
+{
+    color: darkblue;
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+table
+{
+    width: 100%;
+}
+td, tr
+{
+    border: 1px gainsboro solid;
+    margin: 0px;
+}
+
+.horaire a
+{
+    color: red;
+    font-style: italic;
+}
+table, .horaire a
+{
+    display: none;
+}
+
+
+/* Les styles de la barre des aside */
+
+aside
+{
+    height: 100px;
+    width: 90%;
+    box-shadow: grey 2px 3px 2px;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px white solid;
+    transition: transform 3s;
+    transform: scale(1);
+}
+aside:hover
+{
+    transform: scale(1.15);
+}
+
+
+
+.jour
+{
+    background-color: green;
+}
+
+.soir
+{
+    background-color: orange;
+}
+
+
+.master
+{
+    background-color: blue;
+}
+
+aside h3
+{
+    font-family: sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+aside p
+{
+    font-family: sans-serif;
+    color: royalblue;
+    font-size: 15px;
+}
+
+
+/* Les styles de la barre du footer */
+
+footer
+{
+    padding-top: 5px;
+    background-color: darkslateblue;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
+footer a
+{
+    color: skyblue;
+}
+footer h1
+{
+    font-size: 20px;
+}
+footer p, footer a
+{
+    font-size: 13px;
+}
+footer img
+{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+footer div
+{
+    background-color: steelblue;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}
